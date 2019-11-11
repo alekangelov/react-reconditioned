@@ -90,15 +90,7 @@ The two babies of the conditional component. If the statement resolves to true, 
 
 ### Switch + Case & Default
 
-The Switch component can only show one component at a time and
-
-resolves the condition from it's parent Conditional component. The
-
-case takes in a value and checks if the condition is equal to the
-
-condition in the parent Conditional component. The Switch component
-
-defaults to the Default component if no conditions are met.
+The Switch component can only show one component at a time and resolves the condition from it's parent Conditional component. The case takes in a value and checks if the condition is equal to the condition in the parent Conditional component. The Switch component defaults to the Default component if no conditions are met.
 
 ## License
 
