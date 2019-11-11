@@ -16,3 +16,17 @@ export function Else({ children }) {
   }
   return null;
 }
+
+export function OnlyIf({ condition = Boolean, children }) {
+  if (condition) {
+    return <React.Fragment>{chidlren}</React.Fragment>;
+  }
+  return null;
+}
+
+export function IfNot({ condition = Boolean, children }) {
+  if (condition) {
+    return <React.Fragment>{chidlren}</React.Fragment>;
+  }
+  return null;
+}
