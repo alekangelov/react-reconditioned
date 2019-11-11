@@ -74,15 +74,11 @@ return (
 
 > What does this thing provide?
 
-Conditional React provides a utilitarian set of components that will
-
-make your life SO much easier !
+Conditional React provides a utilitarian set of components that will make your life SO much easier !
 
 ### Conditional
 
-This is the overarching API exposed by this library that takes in the
-
-condition. Boolean for if/else statements and strings/objects whatever for switch statements.
+This is the overarching API exposed by this library that takes in the condition. Boolean for if/else statements and strings/objects whatever for switch statements.
 
 ### If & Else
 
