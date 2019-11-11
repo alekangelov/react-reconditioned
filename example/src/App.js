@@ -1,13 +1,16 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import ExampleComponent from 'conditional-react'
+import { Conditional, If, Else } from "conditional-react";
 
 export default class App extends Component {
-  render () {
+  render() {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <Conditional condition={true}>
+          <If>jako</If>
+          <Else>najjako</Else>
+        </Conditional>
       </div>
-    )
+    );
   }
 }

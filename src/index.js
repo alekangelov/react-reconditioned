@@ -1,14 +1,5 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-
-export default class ExampleComponent extends Component {
-  static propTypes = {
-    text: PropTypes.string
-  };
-
-  render() {
-    const { text } = this.props;
-
-    return <div>Example Component: {text}</div>;
-  }
-}
+import Conditional from "./Components/Conditional";
+import { If, Else } from "./Components/If";
+export { Conditional, If, Else };
