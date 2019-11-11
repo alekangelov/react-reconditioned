@@ -1,10 +1,10 @@
 {
-  "name": "conditional-react",
+  "name": "react-reconditioned",
   "version": "1.0.0",
-  "description": "Ternary operations made simple.",
+  "description": "Declarative ternary operations for the masses!",
   "author": "alekangelov",
   "license": "MIT",
-  "repository": "alekangelov/conditional-react",
+  "repository": "alekangelov/react-reconditioned",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",

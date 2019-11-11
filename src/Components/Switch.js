@@ -1,11 +1,13 @@
 import React, { useContext } from "react";
 import { ConditionalContext } from "./Conditional";
+import { isArray } from "util";
 
 export function Switch({ children }) {
   const context = useContext(ConditionalContext);
   let matchingCase = null;
   let defaultCase = null;
-  children.forEach(child => {
+  const arrayChildren = isArray(children) ? children : [children];
+  arrayChildren.forEach(child => {
     if (!React.isValidElement(child)) {
       return;
     }
@@ -18,13 +20,7 @@ export function Switch({ children }) {
       return;
     }
   });
-  return (
-    <React.Fragment>
-      {JSON.stringify(context)}
-      <br></br>
-      {matchingCase || defaultCase || null}
-    </React.Fragment>
-  );
+  return <React.Fragment>{matchingCase || defaultCase || null}</React.Fragment>;
 }
 
 export function Case({ match = "", children }) {
