@@ -17,16 +17,21 @@ export function Else({ children }) {
   return null;
 }
 
-export function OnlyIf({ condition = Boolean, children }) {
-  if (condition) {
-    return <React.Fragment>{chidlren}</React.Fragment>;
+export function Condition({
+  condition = Boolean,
+  children,
+  match = true,
+  dontMatch = false
+}) {
+  if (match) {
+    if (condition) {
+      return <React.Fragment>{children}</React.Fragment>;
+    }
   }
-  return null;
-}
-
-export function IfNot({ condition = Boolean, children }) {
-  if (condition) {
-    return <React.Fragment>{chidlren}</React.Fragment>;
+  if (dontMatch) {
+    if (!condition) {
+      return <React.Fragment>{children}</React.Fragment>;
+    }
   }
   return null;
 }
