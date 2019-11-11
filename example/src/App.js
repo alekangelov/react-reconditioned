@@ -91,7 +91,7 @@ export default class App extends Component {
     </Conditional>
   );`}
         </Syntax>
-        <h3>1. Simple Switch Statement</h3>
+        <h3>2. Simple Switch Statement</h3>
         <SimpleSwitch />
         <h4>Code</h4>
         <Syntax language="react" style={atomOneLight}>
