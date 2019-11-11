@@ -12,7 +12,11 @@
 
 ```bash
 
+
+
 npm install --save conditional-react
+
+
 
 ```
 
@@ -44,6 +48,7 @@ return (
     <If>
       <p>IT'S TRUE 🗿🗿🗿</p>
     </If>
+
     <Else>Darn it it's false!</Else>
   </Conditional>
 );
@@ -58,6 +63,7 @@ return (
   <Conditional condition={option}>
     <Switch>
       <Case value="initial value"></Case>
+
       <Default></Default>
     </Switch>
   </Conditional>
@@ -69,23 +75,29 @@ return (
 > What does this thing provide?
 
 Conditional React provides a utilitarian set of components that will
+
 make your life SO much easier !
 
-### <Conditional />
+### Conditional
 
 This is the overarching API exposed by this library that takes in the
+
 condition. Boolean for if/else statements and strings/objects whatever for switch statements.
 
-### <If /> & <Else />
+### If & Else
 
 The two babies of the conditional component. If the statement resolves to true, it'll show the If component, else it will show the Else component and it's children.
 
-### <Switch /> + <Case /> & <Default />
+### Switch + Case & Default
 
 The Switch component can only show one component at a time and
+
 resolves the condition from it's parent Conditional component. The
+
 case takes in a value and checks if the condition is equal to the
+
 condition in the parent Conditional component. The Switch component
+
 defaults to the Default component if no conditions are met.
 
 ## License
