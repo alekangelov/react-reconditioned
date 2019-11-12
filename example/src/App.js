@@ -142,7 +142,9 @@ export default class App extends Component {
           <p>
             <a href="https://www.npmjs.com/package/react-reconditioned">npm</a>
             {" | "}
-            <a href="https://alekangelov.com">github</a>
+            <a href="https://github.com/alekangelov">github</a>
+            {" | "}
+            <a href="https://twitter.com/39strife">twitter</a>
           </p>
         </footer>
       </div>
