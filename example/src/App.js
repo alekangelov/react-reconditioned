@@ -109,7 +109,7 @@ export default class App extends Component {
         <h1>API</h1>
         <small>What does this thing provide?</small>
         <p>
-          Conditional React provides a utilitarian set of components that will
+          React Reconditioned provides a utilitarian set of components that will
           make your life SO much easier !
         </p>
         <h4>{"<Conditional />"}</h4>
@@ -140,7 +140,7 @@ export default class App extends Component {
             </b>
           </p>
           <p>
-            <a href="https://alekangelov.com">npm</a>
+            <a href="https://www.npmjs.com/package/react-reconditioned">npm</a>
             {" | "}
             <a href="https://alekangelov.com">github</a>
           </p>
